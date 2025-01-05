@@ -19,7 +19,7 @@ function vapenotif(title, text, duration, type)
 		notification.Position = UDim2.new(1, 0, 1, -(29 + (78 * i)))
 		notification.ZIndex = 5
 		notification.BackgroundTransparency = 1
-		notification.Image = getcustomasset('newvape/assets/new/notification.png')
+		notification.Image = "rbxassetid://16738721069"
 		notification.ScaleType = Enum.ScaleType.Slice
 		notification.SliceCenter = Rect.new(7, 7, 9, 9)
 		notification.Parent = notifications
@@ -29,7 +29,7 @@ function vapenotif(title, text, duration, type)
 		blur.Size = UDim2.new(1, 89, 1, 52)
 		blur.Position = UDim2.fromOffset(-48, -31)
 		blur.BackgroundTransparency = 1
-		blur.Image = getcustomasset('newvape/assets/new/blurnotif.png')
+		blur.Image = "rbxassetid://16738720137"
 		blur.ScaleType = Enum.ScaleType.Slice
 		blur.SliceCenter = Rect.new(52, 31, 261, 502)
 		blur.Parent = notification
