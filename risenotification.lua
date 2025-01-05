@@ -63,7 +63,7 @@ function risenotif(title, text, duration, type, continued)
 	textlabel.TextSize = 17
 	textlabel.TextXAlignment = Enum.TextXAlignment.Left
 	textlabel.TextYAlignment = Enum.TextYAlignment.Center
-	textlabel.FontFace = Font.new(getcustomasset('newvape/assets/rise/SF-Pro-Rounded-Light.otf'))
+	textlabel.FontFace = Font.fromEnum(Enum.Font.Arial, Enum.FontWeight.SemiBold)
 	textlabel.Parent = notification
 	local info = TweenInfo.new(0.5, Enum.EasingStyle.Exponential, Enum.EasingDirection.Out)
     if tween.tweens[scale] then
